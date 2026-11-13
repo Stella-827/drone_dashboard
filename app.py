@@ -35,7 +35,7 @@ sidebar = dbc.Nav(
         ),
         dbc.NavLink("🔋 Battery", href="/battery", active="exact", className="py-3"),
         dbc.NavLink("⚙️ Motor",   href="/motor",   active="exact", className="py-3"),
-        dbc.NavLink("🌀 Thrust",  href="/thrust",  active="exact", className="py-3"),
+        dbc.NavLink("💨 Thrust",  href="/thrust",  active="exact", className="py-3"),
         dbc.NavLink("🚁 Optimizer", href="/optimizer", active="exact", className="py-3"),
     ],
     vertical=True,
